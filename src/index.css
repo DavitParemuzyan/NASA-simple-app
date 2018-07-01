@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.header {
+	position: relative;
+	background: black;
+	height: 100px;
+	border-bottom: 3px solid #FFA500;
+	margin-bottom: 5px;
+}
+form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.searched_image {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+}
+
